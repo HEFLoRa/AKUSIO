@@ -133,4 +133,9 @@ Preparing the scheduled shutdown and power up:
 
 ![image](https://user-images.githubusercontent.com/64909238/121417337-13c00600-c96a-11eb-84f3-357d15ffc4b7.png)
 
+## References
+
+https://wiki.seeedstudio.com/ReSpeaker_4_Mic_Array_for_Raspberry_Pi/
+https://learn.adafruit.com/adafruit-ina219-current-sensor-breakout/python-circuitpython
+
 
