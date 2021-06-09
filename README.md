@@ -101,16 +101,36 @@ The solar energy system shown in figure 5 was designed to power the RPi.
 
 ![image](https://user-images.githubusercontent.com/64909238/121412514-166c2c80-c965-11eb-957f-dd91ee76c0c7.png)
 
-            Average Current Consumption: 300 mA
-	          Solar Panels: 2 x 17 V / 10 W
-	          Surface Area = 0.116 m² 
-            Efficiency = 17 %
-            Average daily power output for 12 sunny hours: 20(W) * 0.17 * 12(h) = 40.8 Wh
-            Average daily current output = 2400 mAh
-            Li-ion Battery Capacity = 4800 mAh
+	Average Current Consumption: 300 mA
+	Solar Panels: 2 x 17 V / 10 W
+	Surface Area = 0.116 m² 
+	Efficiency = 17 %
+	Average daily power output for 12 sunny hours: 20(W) * 0.17 * 12(h) = 40.8 Wh
+	Average daily current output = 2400 mAh
+	Li-ion Battery Capacity = 4800 mAh
 
 
-6)	LoRa transmissions
-7)	Power management
-8)	Running shazam
+## 6)	LoRa transmissions
+An open source lmic based code is used to transmit data to a LoRa gateway, the code can be found in this link: https://github.com/wklenk/lmic-rpi-lora-gps-hat , WiringPi library have to be installed first, then the LoRa file can run. 
+Our LoRa transmission algorithm basically reads the json data file that is created by the main bird sound detection algorithm, for each data entry, the highest 3 probabilities are read, in addition to the timestamp data and the current readings from the INA219, then if the highest bird id probability is higher than 0.2, the data is transmitted over LoRa using the LoRaWAN HAT to TTN, otherwise the data entry is skipped and the algorithm checks the next one. The whole process is showed in figure 8 and the python file responsible for it is lora.py file.
+
+![image](https://user-images.githubusercontent.com/64909238/121415580-30f3d500-c968-11eb-8ace-9ec6826b1ec5.png)
+
+
+## 7)	Power management
+Since Raspberry Pi does not have a built-in power management system, an external power management system is used to schedule the working hours of the detection system to reduce the overall power consumption during the times when there is no bird activity expected. 
+We use the StromPi 3 power management board since it has the specs and capabilities we need for our system, the WakeUp-Alarm mode starts the RPi at a predefined time, while the PowerOff-Alarm mode shuts down the RPi at a predefined time.
+Preparing the scheduled shutdown and power up:
+	
+	a. Set the real time clock (RTC) by synchronizing it with the RPi time.
+	b. Set the PowerOff-Alarm mode to shutdown the RPi everyday at a certain time.
+	c. Set WakeUp-Alarm mode at alarm mode 1 to start the RPi everyday at a certain time.
+	d. Activate Power save mode to reduce StromPi power consumption.
+	e. Activate serialless mode to allow other HATs to use serial connection with RPi.
+	
+	
+## 8)	Running shazam
+
+![image](https://user-images.githubusercontent.com/64909238/121417337-13c00600-c96a-11eb-84f3-357d15ffc4b7.png)
+
 
