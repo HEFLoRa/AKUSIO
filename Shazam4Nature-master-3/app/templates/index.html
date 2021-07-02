@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% macro bird_image(id) -%}
+<figure>
+    {% set name = "birds/" ~ birdsData[id]["file"] ~ "_index.png" %}
+    <h6>{{birdsData[id]["name"]}}</h6>
+    <a href="{{url_for('main.bird_details', id=id)}}">
+        <img src="{{url_for('main.static', filename=name)}}" />
+    </a>
+    <figcaption>Amount: {{"%0.0f" | format(birdsData[id]["weight"]|float)}}</figcaption>
+</figure>
+{%- endmacro%}}
+
+
+{% block app_content %}
+
+<h1 align="center">Hello Nature!</h1>
+<div class="container-fluid">
+    <div class="row">
+    {% for key, _ in birdsData.items() %}
+        <div align="center" class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+                {{bird_image(key)}}
+        </div>
+    {% endfor %}
+    </div>
+</div>
+{%- endblock %}

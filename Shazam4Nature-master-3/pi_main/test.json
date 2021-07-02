@@ -1,0 +1,65 @@
+[
+    {
+        "pi_id": 2,
+        "timestamp": "2020-12-30 14:37:25.985494",
+        "position": "[50.6788, 7.1619]",
+        "measurements": [
+            {
+                "angle": 120.0,
+                "deviation": 15,
+                "sig_pow": 26.23678394357972,
+                "snr": "[-36.3811, -36.2194, -1.4255, -35.9123]"
+            }
+        ],
+        "classifications": [
+            {
+                "bird_id": 0,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 1,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 2,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 3,
+                "probability": 0.0
+	    }
+	]
+},
+    {
+        "pi_id": 2,
+        "timestamp": "2020-12-30 14:37:25.985494",
+        "position": "[50.6788, 7.1619]",
+        "measurements": [
+            {
+                "angle": 120.0,
+                "deviation": 15,
+                "sig_pow": 26.23678394357972,
+                "snr": "[-36.3811, -36.2194, -1.4255, -35.9123]"
+            }
+        ],
+        "classifications": [
+            {
+                "bird_id": 0,
+                "probability": 10.0
+            },
+            {
+                "bird_id": 1,
+                "probability": 20.0
+            },
+            {
+                "bird_id": 2,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 3,
+                "probability": 0.0
+            }
+        ]
+}
+]
+

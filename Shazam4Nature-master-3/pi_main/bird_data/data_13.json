@@ -1,0 +1,6831 @@
+[
+    {
+        "pi_id": 2,
+        "timestamp": "2021-05-05 07:51:18.141587",
+        "position": "[50.6788, 7.1619]",
+        "solar_current": 1.67,
+        "solar_voltage": 0.01772,
+        "measurements": [
+            {
+                "angle": 45.30368179689219,
+                "deviation": 15,
+                "sig_pow": 76.09336057706085,
+                "snr": "[-11.7027, -11.1743, -11.117, -15.3977]"
+            }
+        ],
+        "classifications": [
+            {
+                "bird_id": 0,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 1,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 2,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 3,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 4,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 5,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 6,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 7,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 8,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 9,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 10,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 11,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 12,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 13,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 14,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 15,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 16,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 17,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 18,
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "pi_id": 2,
+        "timestamp": "2021-05-05 07:51:26.993679",
+        "position": "[50.6788, 7.1619]",
+        "solar_current": 1.6740000000000004,
+        "solar_voltage": 0.01768,
+        "measurements": [
+            {
+                "angle": 30.0,
+                "deviation": 15,
+                "sig_pow": 76.69129775178862,
+                "snr": "[-13.4772, -13.6071, -11.4632, -10.6961]"
+            }
+        ],
+        "classifications": [
+            {
+                "bird_id": 0,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 1,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 2,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 3,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 4,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 5,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 6,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 7,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 8,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 9,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 10,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 11,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 12,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 13,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 14,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 15,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 16,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 17,
+                "probability": 0.25
+            },
+            {
+                "bird_id": 18,
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "pi_id": 2,
+        "timestamp": "2021-05-05 07:51:36.235697",
+        "position": "[50.6788, 7.1619]",
+        "solar_current": 1.6440000000000001,
+        "solar_voltage": 0.018160000000000003,
+        "measurements": [
+            {
+                "angle": 30.0,
+                "deviation": 15,
+                "sig_pow": 76.18094202045003,
+                "snr": "[-13.818, -11.382, -11.0338, -14.7808]"
+            }
+        ],
+        "classifications": [
+            {
+                "bird_id": 0,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 1,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 2,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 3,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 4,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 5,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 6,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 7,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 8,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 9,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 10,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 11,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 12,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 13,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 14,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 15,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 16,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 17,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 18,
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "pi_id": 2,
+        "timestamp": "2021-05-05 07:51:45.287783",
+        "position": "[50.6788, 7.1619]",
+        "solar_current": 1.646,
+        "solar_voltage": 0.01788,
+        "measurements": [
+            {
+                "angle": 45.30368179689219,
+                "deviation": 15,
+                "sig_pow": 76.43644383839842,
+                "snr": "[-10.4595, -11.3042, -17.4901, -15.3742]"
+            }
+        ],
+        "classifications": [
+            {
+                "bird_id": 0,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 1,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 2,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 3,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 4,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 5,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 6,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 7,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 8,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 9,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 10,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 11,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 12,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 13,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 14,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 15,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 16,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 17,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 18,
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "pi_id": 2,
+        "timestamp": "2021-05-05 07:51:55.001352",
+        "position": "[50.6788, 7.1619]",
+        "solar_current": 1.656,
+        "solar_voltage": 0.018200000000000004,
+        "measurements": [
+            {
+                "angle": 30.0,
+                "deviation": 15,
+                "sig_pow": 77.57710523208665,
+                "snr": "[-10.9143, -22.2994, -15.4355, -10.3251]"
+            }
+        ],
+        "classifications": [
+            {
+                "bird_id": 0,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 1,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 2,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 3,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 4,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 5,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 6,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 7,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 8,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 9,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 10,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 11,
+                "probability": 0.5
+            },
+            {
+                "bird_id": 12,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 13,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 14,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 15,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 16,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 17,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 18,
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "pi_id": 2,
+        "timestamp": "2021-05-05 07:52:03.955664",
+        "position": "[50.6788, 7.1619]",
+        "solar_current": 1.6469999999999998,
+        "solar_voltage": 0.017560000000000003,
+        "measurements": [
+            {
+                "angle": 45.30368179689219,
+                "deviation": 15,
+                "sig_pow": 78.20131577572103,
+                "snr": "[-9.8787, -9.4301, -18.1361, -13.1278]"
+            }
+        ],
+        "classifications": [
+            {
+                "bird_id": 0,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 1,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 2,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 3,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 4,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 5,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 6,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 7,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 8,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 9,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 10,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 11,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 12,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 13,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 14,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 15,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 16,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 17,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 18,
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "pi_id": 2,
+        "timestamp": "2021-05-05 07:52:13.471609",
+        "position": "[50.6788, 7.1619]",
+        "solar_current": 1.6320000000000001,
+        "solar_voltage": 0.017120000000000003,
+        "measurements": [
+            {
+                "angle": 45.30368179689219,
+                "deviation": 15,
+                "sig_pow": 78.24389168548865,
+                "snr": "[-9.472, -12.213, -15.0994, -10.6041]"
+            }
+        ],
+        "classifications": [
+            {
+                "bird_id": 0,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 1,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 2,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 3,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 4,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 5,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 6,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 7,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 8,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 9,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 10,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 11,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 12,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 13,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 14,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 15,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 16,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 17,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 18,
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "pi_id": 2,
+        "timestamp": "2021-05-05 07:52:22.298861",
+        "position": "[50.6788, 7.1619]",
+        "solar_current": 1.672,
+        "solar_voltage": 0.01692,
+        "measurements": [
+            {
+                "angle": 45.30368179689219,
+                "deviation": 15,
+                "sig_pow": 76.30896068631426,
+                "snr": "[-9.9764, -11.5067, -11.9395, -12.8474]"
+            }
+        ],
+        "classifications": [
+            {
+                "bird_id": 0,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 1,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 2,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 3,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 4,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 5,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 6,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 7,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 8,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 9,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 10,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 11,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 12,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 13,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 14,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 15,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 16,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 17,
+                "probability": 0.5
+            },
+            {
+                "bird_id": 18,
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "pi_id": 2,
+        "timestamp": "2021-05-05 07:52:31.657156",
+        "position": "[50.6788, 7.1619]",
+        "solar_current": 1.6680000000000004,
+        "solar_voltage": 0.0178,
+        "measurements": [
+            {
+                "angle": 30.0,
+                "deviation": 15,
+                "sig_pow": 76.94616057363844,
+                "snr": "[-12.2529, -10.2099, -13.1871, -13.6495]"
+            }
+        ],
+        "classifications": [
+            {
+                "bird_id": 0,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 1,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 2,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 3,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 4,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 5,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 6,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 7,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 8,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 9,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 10,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 11,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 12,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 13,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 14,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 15,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 16,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 17,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 18,
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "pi_id": 2,
+        "timestamp": "2021-05-05 07:52:40.501502",
+        "position": "[50.6788, 7.1619]",
+        "solar_current": 1.63,
+        "solar_voltage": 0.01752,
+        "measurements": [
+            {
+                "angle": 45.30368179689219,
+                "deviation": 15,
+                "sig_pow": 76.47863322088445,
+                "snr": "[-17.915, -14.5199, -10.8844, -10.7861]"
+            }
+        ],
+        "classifications": [
+            {
+                "bird_id": 0,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 1,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 2,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 3,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 4,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 5,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 6,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 7,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 8,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 9,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 10,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 11,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 12,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 13,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 14,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 15,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 16,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 17,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 18,
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "pi_id": 2,
+        "timestamp": "2021-05-05 07:52:49.574217",
+        "position": "[50.6788, 7.1619]",
+        "solar_current": 1.653,
+        "solar_voltage": 0.016280000000000003,
+        "measurements": [
+            {
+                "angle": 45.30368179689219,
+                "deviation": 15,
+                "sig_pow": 75.18150474114731,
+                "snr": "[-12.6078, -11.8768, -14.053, -12.1858]"
+            }
+        ],
+        "classifications": [
+            {
+                "bird_id": 0,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 1,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 2,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 3,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 4,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 5,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 6,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 7,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 8,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 9,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 10,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 11,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 12,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 13,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 14,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 15,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 16,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 17,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 18,
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "pi_id": 2,
+        "timestamp": "2021-05-05 07:52:58.935209",
+        "position": "[50.6788, 7.1619]",
+        "solar_current": 1.6669999999999998,
+        "solar_voltage": 0.017040000000000003,
+        "measurements": [
+            {
+                "angle": 45.30368179689219,
+                "deviation": 15,
+                "sig_pow": 74.94424997533253,
+                "snr": "[-11.4709, -12.7433, -14.6641, -14.6771]"
+            }
+        ],
+        "classifications": [
+            {
+                "bird_id": 0,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 1,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 2,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 3,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 4,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 5,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 6,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 7,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 8,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 9,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 10,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 11,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 12,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 13,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 14,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 15,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 16,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 17,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 18,
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "pi_id": 2,
+        "timestamp": "2021-05-05 07:53:07.909691",
+        "position": "[50.6788, 7.1619]",
+        "solar_current": 1.682,
+        "solar_voltage": 0.017960000000000004,
+        "measurements": [
+            {
+                "angle": 30.0,
+                "deviation": 15,
+                "sig_pow": 76.04839403088367,
+                "snr": "[-14.7459, -15.1774, -11.0456, -11.5568]"
+            }
+        ],
+        "classifications": [
+            {
+                "bird_id": 0,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 1,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 2,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 3,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 4,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 5,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 6,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 7,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 8,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 9,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 10,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 11,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 12,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 13,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 14,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 15,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 16,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 17,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 18,
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "pi_id": 2,
+        "timestamp": "2021-05-05 07:53:16.989248",
+        "position": "[50.6788, 7.1619]",
+        "solar_current": 1.6420000000000001,
+        "solar_voltage": 0.018000000000000002,
+        "measurements": [
+            {
+                "angle": 45.30368179689219,
+                "deviation": 15,
+                "sig_pow": 74.88809427092522,
+                "snr": "[-11.2596, -12.1827, -13.5133, -13.7186]"
+            }
+        ],
+        "classifications": [
+            {
+                "bird_id": 0,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 1,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 2,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 3,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 4,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 5,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 6,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 7,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 8,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 9,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 10,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 11,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 12,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 13,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 14,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 15,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 16,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 17,
+                "probability": 0.5
+            },
+            {
+                "bird_id": 18,
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "pi_id": 2,
+        "timestamp": "2021-05-05 07:53:26.063280",
+        "position": "[50.6788, 7.1619]",
+        "solar_current": 1.6440000000000006,
+        "solar_voltage": 0.01716,
+        "measurements": [
+            {
+                "angle": 45.30368179689219,
+                "deviation": 15,
+                "sig_pow": 76.20783566323965,
+                "snr": "[-13.652, -15.0451, -10.6998, -11.6949]"
+            }
+        ],
+        "classifications": [
+            {
+                "bird_id": 0,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 1,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 2,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 3,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 4,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 5,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 6,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 7,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 8,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 9,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 10,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 11,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 12,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 13,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 14,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 15,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 16,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 17,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 18,
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "pi_id": 2,
+        "timestamp": "2021-05-05 07:53:35.723187",
+        "position": "[50.6788, 7.1619]",
+        "solar_current": 1.6529999999999998,
+        "solar_voltage": 0.017560000000000003,
+        "measurements": [
+            {
+                "angle": 30.0,
+                "deviation": 15,
+                "sig_pow": 76.28466084050568,
+                "snr": "[-14.1981, -14.9121, -10.7518, -10.9649]"
+            }
+        ],
+        "classifications": [
+            {
+                "bird_id": 0,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 1,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 2,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 3,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 4,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 5,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 6,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 7,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 8,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 9,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 10,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 11,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 12,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 13,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 14,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 15,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 16,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 17,
+                "probability": 0.7
+            },
+            {
+                "bird_id": 18,
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "pi_id": 2,
+        "timestamp": "2021-05-05 07:53:45.429972",
+        "position": "[50.6788, 7.1619]",
+        "solar_current": 1.6510000000000002,
+        "solar_voltage": 0.01748,
+        "measurements": [
+            {
+                "angle": 30.0,
+                "deviation": 15,
+                "sig_pow": 75.90961915251702,
+                "snr": "[-11.4395, -12.5467, -12.2807, -11.953]"
+            }
+        ],
+        "classifications": [
+            {
+                "bird_id": 0,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 1,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 2,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 3,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 4,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 5,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 6,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 7,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 8,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 9,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 10,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 11,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 12,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 13,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 14,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 15,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 16,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 17,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 18,
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "pi_id": 2,
+        "timestamp": "2021-05-05 07:53:54.521875",
+        "position": "[50.6788, 7.1619]",
+        "solar_current": 1.6780000000000004,
+        "solar_voltage": 0.017960000000000004,
+        "measurements": [
+            {
+                "angle": 45.30368179689219,
+                "deviation": 15,
+                "sig_pow": 76.02084858654749,
+                "snr": "[-11.1465, -13.9619, -12.229, -11.0735]"
+            }
+        ],
+        "classifications": [
+            {
+                "bird_id": 0,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 1,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 2,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 3,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 4,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 5,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 6,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 7,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 8,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 9,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 10,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 11,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 12,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 13,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 14,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 15,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 16,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 17,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 18,
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "pi_id": 2,
+        "timestamp": "2021-05-05 07:54:03.383473",
+        "position": "[50.6788, 7.1619]",
+        "solar_current": 1.692,
+        "solar_voltage": 0.017560000000000003,
+        "measurements": [
+            {
+                "angle": 30.0,
+                "deviation": 15,
+                "sig_pow": 75.45189422410341,
+                "snr": "[-12.5817, -10.6245, -12.1147, -11.7772]"
+            }
+        ],
+        "classifications": [
+            {
+                "bird_id": 0,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 1,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 2,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 3,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 4,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 5,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 6,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 7,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 8,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 9,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 10,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 11,
+                "probability": 0.5
+            },
+            {
+                "bird_id": 12,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 13,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 14,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 15,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 16,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 17,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 18,
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "pi_id": 2,
+        "timestamp": "2021-05-05 07:54:12.965514",
+        "position": "[50.6788, 7.1619]",
+        "solar_current": 1.651,
+        "solar_voltage": 0.01776,
+        "measurements": [
+            {
+                "angle": 30.0,
+                "deviation": 15,
+                "sig_pow": 76.8015415826798,
+                "snr": "[-11.2047, -10.8547, -18.2541, -13.0568]"
+            }
+        ],
+        "classifications": [
+            {
+                "bird_id": 0,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 1,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 2,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 3,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 4,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 5,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 6,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 7,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 8,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 9,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 10,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 11,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 12,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 13,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 14,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 15,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 16,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 17,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 18,
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "pi_id": 2,
+        "timestamp": "2021-05-05 07:54:21.811000",
+        "position": "[50.6788, 7.1619]",
+        "solar_current": 1.6740000000000002,
+        "solar_voltage": 0.01752,
+        "measurements": [
+            {
+                "angle": 45.30368179689219,
+                "deviation": 15,
+                "sig_pow": 75.62587077179438,
+                "snr": "[-11.6224, -11.8623, -13.9163, -13.9529]"
+            }
+        ],
+        "classifications": [
+            {
+                "bird_id": 0,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 1,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 2,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 3,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 4,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 5,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 6,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 7,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 8,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 9,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 10,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 11,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 12,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 13,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 14,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 15,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 16,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 17,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 18,
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "pi_id": 2,
+        "timestamp": "2021-05-05 07:54:30.985710",
+        "position": "[50.6788, 7.1619]",
+        "solar_current": 1.6769999999999998,
+        "solar_voltage": 0.01776,
+        "measurements": [
+            {
+                "angle": 45.30368179689219,
+                "deviation": 15,
+                "sig_pow": 76.68367524470932,
+                "snr": "[-17.061, -15.5733, -10.4083, -11.7793]"
+            }
+        ],
+        "classifications": [
+            {
+                "bird_id": 0,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 1,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 2,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 3,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 4,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 5,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 6,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 7,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 8,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 9,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 10,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 11,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 12,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 13,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 14,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 15,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 16,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 17,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 18,
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "pi_id": 2,
+        "timestamp": "2021-05-05 07:54:40.376900",
+        "position": "[50.6788, 7.1619]",
+        "solar_current": 1.6910000000000005,
+        "solar_voltage": 0.016960000000000003,
+        "measurements": [
+            {
+                "angle": 45.30368179689219,
+                "deviation": 15,
+                "sig_pow": 76.47393105011419,
+                "snr": "[-16.2603, -14.987, -11.7212, -11.3251]"
+            }
+        ],
+        "classifications": [
+            {
+                "bird_id": 0,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 1,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 2,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 3,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 4,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 5,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 6,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 7,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 8,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 9,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 10,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 11,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 12,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 13,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 14,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 15,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 16,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 17,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 18,
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "pi_id": 2,
+        "timestamp": "2021-05-05 07:54:49.473315",
+        "position": "[50.6788, 7.1619]",
+        "solar_current": 1.68,
+        "solar_voltage": 0.017200000000000003,
+        "measurements": [
+            {
+                "angle": 30.0,
+                "deviation": 15,
+                "sig_pow": 76.13276296527638,
+                "snr": "[-11.982, -14.5716, -14.0209, -10.906]"
+            }
+        ],
+        "classifications": [
+            {
+                "bird_id": 0,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 1,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 2,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 3,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 4,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 5,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 6,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 7,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 8,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 9,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 10,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 11,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 12,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 13,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 14,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 15,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 16,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 17,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 18,
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "pi_id": 2,
+        "timestamp": "2021-05-05 07:54:58.423116",
+        "position": "[50.6788, 7.1619]",
+        "solar_current": 1.6669999999999998,
+        "solar_voltage": 0.01776,
+        "measurements": [
+            {
+                "angle": 30.0,
+                "deviation": 15,
+                "sig_pow": 76.84392617024893,
+                "snr": "[-15.5362, -12.9929, -10.3368, -11.6751]"
+            }
+        ],
+        "classifications": [
+            {
+                "bird_id": 0,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 1,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 2,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 3,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 4,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 5,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 6,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 7,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 8,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 9,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 10,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 11,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 12,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 13,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 14,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 15,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 16,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 17,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 18,
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "pi_id": 2,
+        "timestamp": "2021-05-05 07:55:08.084931",
+        "position": "[50.6788, 7.1619]",
+        "solar_current": 1.6670000000000005,
+        "solar_voltage": 0.0174,
+        "measurements": [
+            {
+                "angle": 45.30368179689219,
+                "deviation": 15,
+                "sig_pow": 76.23528810117014,
+                "snr": "[-11.1515, -11.0768, -13.6447, -13.0065]"
+            }
+        ],
+        "classifications": [
+            {
+                "bird_id": 0,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 1,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 2,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 3,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 4,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 5,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 6,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 7,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 8,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 9,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 10,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 11,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 12,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 13,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 14,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 15,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 16,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 17,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 18,
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "pi_id": 2,
+        "timestamp": "2021-05-05 07:55:17.309751",
+        "position": "[50.6788, 7.1619]",
+        "solar_current": 1.675,
+        "solar_voltage": 0.018000000000000002,
+        "measurements": [
+            {
+                "angle": 45.30368179689219,
+                "deviation": 15,
+                "sig_pow": 77.02609222779213,
+                "snr": "[-10.764, -10.3524, -15.3256, -13.2792]"
+            }
+        ],
+        "classifications": [
+            {
+                "bird_id": 0,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 1,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 2,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 3,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 4,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 5,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 6,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 7,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 8,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 9,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 10,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 11,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 12,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 13,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 14,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 15,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 16,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 17,
+                "probability": 0.7
+            },
+            {
+                "bird_id": 18,
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "pi_id": 2,
+        "timestamp": "2021-05-05 07:55:26.424915",
+        "position": "[50.6788, 7.1619]",
+        "solar_current": 1.662,
+        "solar_voltage": 0.017159999999999998,
+        "measurements": [
+            {
+                "angle": 45.30368179689219,
+                "deviation": 15,
+                "sig_pow": 77.80561557342062,
+                "snr": "[-10.9422, -9.9702, -15.2392, -12.8045]"
+            }
+        ],
+        "classifications": [
+            {
+                "bird_id": 0,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 1,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 2,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 3,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 4,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 5,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 6,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 7,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 8,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 9,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 10,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 11,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 12,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 13,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 14,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 15,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 16,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 17,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 18,
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "pi_id": 2,
+        "timestamp": "2021-05-05 07:55:35.424021",
+        "position": "[50.6788, 7.1619]",
+        "solar_current": 1.669,
+        "solar_voltage": 0.017,
+        "measurements": [
+            {
+                "angle": 30.0,
+                "deviation": 15,
+                "sig_pow": 78.56452373382714,
+                "snr": "[-11.0653, -12.8604, -13.9812, -9.1185]"
+            }
+        ],
+        "classifications": [
+            {
+                "bird_id": 0,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 1,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 2,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 3,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 4,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 5,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 6,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 7,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 8,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 9,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 10,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 11,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 12,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 13,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 14,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 15,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 16,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 17,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 18,
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "pi_id": 2,
+        "timestamp": "2021-05-05 07:55:44.141223",
+        "position": "[50.6788, 7.1619]",
+        "solar_current": 1.6680000000000004,
+        "solar_voltage": 0.017120000000000003,
+        "measurements": [
+            {
+                "angle": 45.30368179689219,
+                "deviation": 15,
+                "sig_pow": 76.10743728011529,
+                "snr": "[-11.7899, -12.5624, -11.2512, -11.2304]"
+            }
+        ],
+        "classifications": [
+            {
+                "bird_id": 0,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 1,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 2,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 3,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 4,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 5,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 6,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 7,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 8,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 9,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 10,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 11,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 12,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 13,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 14,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 15,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 16,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 17,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 18,
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "pi_id": 2,
+        "timestamp": "2021-05-05 07:55:53.411805",
+        "position": "[50.6788, 7.1619]",
+        "solar_current": 1.6550000000000002,
+        "solar_voltage": 0.01744,
+        "measurements": [
+            {
+                "angle": 30.0,
+                "deviation": 15,
+                "sig_pow": 76.21898710030969,
+                "snr": "[-13.9853, -11.71, -11.2577, -11.6133]"
+            }
+        ],
+        "classifications": [
+            {
+                "bird_id": 0,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 1,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 2,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 3,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 4,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 5,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 6,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 7,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 8,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 9,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 10,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 11,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 12,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 13,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 14,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 15,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 16,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 17,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 18,
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "pi_id": 2,
+        "timestamp": "2021-05-05 07:56:02.468634",
+        "position": "[50.6788, 7.1619]",
+        "solar_current": 1.6770000000000003,
+        "solar_voltage": 0.017280000000000004,
+        "measurements": [
+            {
+                "angle": 30.0,
+                "deviation": 15,
+                "sig_pow": 77.74945504920198,
+                "snr": "[-17.5221, -15.4451, -10.2656, -10.4989]"
+            }
+        ],
+        "classifications": [
+            {
+                "bird_id": 0,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 1,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 2,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 3,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 4,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 5,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 6,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 7,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 8,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 9,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 10,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 11,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 12,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 13,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 14,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 15,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 16,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 17,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 18,
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "pi_id": 2,
+        "timestamp": "2021-05-05 07:56:12.111671",
+        "position": "[50.6788, 7.1619]",
+        "solar_current": 1.6499999999999997,
+        "solar_voltage": 0.01784,
+        "measurements": [
+            {
+                "angle": 45.30368179689219,
+                "deviation": 15,
+                "sig_pow": 75.80247902369743,
+                "snr": "[-14.2707, -13.4165, -11.2424, -12.2291]"
+            }
+        ],
+        "classifications": [
+            {
+                "bird_id": 0,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 1,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 2,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 3,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 4,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 5,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 6,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 7,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 8,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 9,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 10,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 11,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 12,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 13,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 14,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 15,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 16,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 17,
+                "probability": 0.25
+            },
+            {
+                "bird_id": 18,
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "pi_id": 2,
+        "timestamp": "2021-05-05 07:56:21.139560",
+        "position": "[50.6788, 7.1619]",
+        "solar_current": 1.681,
+        "solar_voltage": 0.01756,
+        "measurements": [
+            {
+                "angle": 45.30368179689219,
+                "deviation": 15,
+                "sig_pow": 75.64508125874399,
+                "snr": "[-11.9083, -12.182, -13.6703, -13.6432]"
+            }
+        ],
+        "classifications": [
+            {
+                "bird_id": 0,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 1,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 2,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 3,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 4,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 5,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 6,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 7,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 8,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 9,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 10,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 11,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 12,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 13,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 14,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 15,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 16,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 17,
+                "probability": 0.5
+            },
+            {
+                "bird_id": 18,
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "pi_id": 2,
+        "timestamp": "2021-05-05 07:56:30.405653",
+        "position": "[50.6788, 7.1619]",
+        "solar_current": 1.6790000000000003,
+        "solar_voltage": 0.016640000000000002,
+        "measurements": [
+            {
+                "angle": 30.0,
+                "deviation": 15,
+                "sig_pow": 75.20404314625168,
+                "snr": "[-12.9966, -11.8704, -11.7299, -13.5875]"
+            }
+        ],
+        "classifications": [
+            {
+                "bird_id": 0,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 1,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 2,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 3,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 4,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 5,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 6,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 7,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 8,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 9,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 10,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 11,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 12,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 13,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 14,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 15,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 16,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 17,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 18,
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "pi_id": 2,
+        "timestamp": "2021-05-05 07:56:39.504702",
+        "position": "[50.6788, 7.1619]",
+        "solar_current": 1.6489999999999998,
+        "solar_voltage": 0.01784,
+        "measurements": [
+            {
+                "angle": 45.30368179689219,
+                "deviation": 15,
+                "sig_pow": 77.05295029343286,
+                "snr": "[-10.297, -11.1556, -11.6825, -12.8512]"
+            }
+        ],
+        "classifications": [
+            {
+                "bird_id": 0,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 1,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 2,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 3,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 4,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 5,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 6,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 7,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 8,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 9,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 10,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 11,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 12,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 13,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 14,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 15,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 16,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 17,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 18,
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "pi_id": 2,
+        "timestamp": "2021-05-05 07:56:48.533899",
+        "position": "[50.6788, 7.1619]",
+        "solar_current": 1.671,
+        "solar_voltage": 0.01776,
+        "measurements": [
+            {
+                "angle": 30.0,
+                "deviation": 15,
+                "sig_pow": 76.87944316887676,
+                "snr": "[-10.6618, -11.5869, -11.7123, -9.6471]"
+            }
+        ],
+        "classifications": [
+            {
+                "bird_id": 0,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 1,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 2,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 3,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 4,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 5,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 6,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 7,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 8,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 9,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 10,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 11,
+                "probability": 0.7
+            },
+            {
+                "bird_id": 12,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 13,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 14,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 15,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 16,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 17,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 18,
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "pi_id": 2,
+        "timestamp": "2021-05-05 07:56:57.768464",
+        "position": "[50.6788, 7.1619]",
+        "solar_current": 1.676,
+        "solar_voltage": 0.017679999999999998,
+        "measurements": [
+            {
+                "angle": 45.30368179689219,
+                "deviation": 15,
+                "sig_pow": 76.62192483249345,
+                "snr": "[-10.3698, -11.6863, -14.4351, -14.3008]"
+            }
+        ],
+        "classifications": [
+            {
+                "bird_id": 0,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 1,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 2,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 3,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 4,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 5,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 6,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 7,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 8,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 9,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 10,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 11,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 12,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 13,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 14,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 15,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 16,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 17,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 18,
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "pi_id": 2,
+        "timestamp": "2021-05-05 07:57:06.802770",
+        "position": "[50.6788, 7.1619]",
+        "solar_current": 1.6720000000000004,
+        "solar_voltage": 0.01692,
+        "measurements": [
+            {
+                "angle": 30.0,
+                "deviation": 15,
+                "sig_pow": 77.06494255789222,
+                "snr": "[-15.0361, -9.7495, -11.102, -15.4111]"
+            }
+        ],
+        "classifications": [
+            {
+                "bird_id": 0,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 1,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 2,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 3,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 4,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 5,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 6,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 7,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 8,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 9,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 10,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 11,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 12,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 13,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 14,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 15,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 16,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 17,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 18,
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "pi_id": 2,
+        "timestamp": "2021-05-05 07:57:16.253648",
+        "position": "[50.6788, 7.1619]",
+        "solar_current": 1.6639999999999995,
+        "solar_voltage": 0.017879999999999997,
+        "measurements": [
+            {
+                "angle": 30.0,
+                "deviation": 15,
+                "sig_pow": 77.74855642493013,
+                "snr": "[-10.9623, -15.3892, -15.6923, -9.5093]"
+            }
+        ],
+        "classifications": [
+            {
+                "bird_id": 0,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 1,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 2,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 3,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 4,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 5,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 6,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 7,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 8,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 9,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 10,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 11,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 12,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 13,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 14,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 15,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 16,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 17,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 18,
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "pi_id": 2,
+        "timestamp": "2021-05-05 07:57:25.075802",
+        "position": "[50.6788, 7.1619]",
+        "solar_current": 1.6760000000000002,
+        "solar_voltage": 0.017,
+        "measurements": [
+            {
+                "angle": 30.0,
+                "deviation": 15,
+                "sig_pow": 77.03954040276295,
+                "snr": "[-11.631, -13.3601, -13.713, -9.7421]"
+            }
+        ],
+        "classifications": [
+            {
+                "bird_id": 0,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 1,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 2,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 3,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 4,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 5,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 6,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 7,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 8,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 9,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 10,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 11,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 12,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 13,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 14,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 15,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 16,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 17,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 18,
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "pi_id": 2,
+        "timestamp": "2021-05-05 07:57:33.879974",
+        "position": "[50.6788, 7.1619]",
+        "solar_current": 1.6609999999999996,
+        "solar_voltage": 0.01768,
+        "measurements": [
+            {
+                "angle": 45.30368179689219,
+                "deviation": 15,
+                "sig_pow": 75.14469954427713,
+                "snr": "[-11.8906, -12.148, -11.3404, -12.0015]"
+            }
+        ],
+        "classifications": [
+            {
+                "bird_id": 0,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 1,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 2,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 3,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 4,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 5,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 6,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 7,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 8,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 9,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 10,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 11,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 12,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 13,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 14,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 15,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 16,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 17,
+                "probability": 0.7
+            },
+            {
+                "bird_id": 18,
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "pi_id": 2,
+        "timestamp": "2021-05-05 07:57:43.290824",
+        "position": "[50.6788, 7.1619]",
+        "solar_current": 1.6380000000000001,
+        "solar_voltage": 0.0168,
+        "measurements": [
+            {
+                "angle": 45.30368179689219,
+                "deviation": 15,
+                "sig_pow": 75.50636318062195,
+                "snr": "[-11.72, -12.0742, -11.2033, -13.1233]"
+            }
+        ],
+        "classifications": [
+            {
+                "bird_id": 0,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 1,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 2,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 3,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 4,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 5,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 6,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 7,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 8,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 9,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 10,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 11,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 12,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 13,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 14,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 15,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 16,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 17,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 18,
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "pi_id": 2,
+        "timestamp": "2021-05-05 07:57:52.610985",
+        "position": "[50.6788, 7.1619]",
+        "solar_current": 1.6429999999999998,
+        "solar_voltage": 0.01692,
+        "measurements": [
+            {
+                "angle": 30.0,
+                "deviation": 15,
+                "sig_pow": 76.55310027586856,
+                "snr": "[-11.1086, -15.3988, -12.2278, -10.0591]"
+            }
+        ],
+        "classifications": [
+            {
+                "bird_id": 0,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 1,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 2,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 3,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 4,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 5,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 6,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 7,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 8,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 9,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 10,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 11,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 12,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 13,
+                "probability": 0.5
+            },
+            {
+                "bird_id": 14,
+                "probability": 0.5
+            },
+            {
+                "bird_id": 15,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 16,
+                "probability": 0.25
+            },
+            {
+                "bird_id": 17,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 18,
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "pi_id": 2,
+        "timestamp": "2021-05-05 07:58:02.546753",
+        "position": "[50.6788, 7.1619]",
+        "solar_current": 1.6650000000000003,
+        "solar_voltage": 0.016640000000000002,
+        "measurements": [
+            {
+                "angle": 30.0,
+                "deviation": 15,
+                "sig_pow": 77.79657995064125,
+                "snr": "[-13.0243, -12.679, -10.0153, -9.1305]"
+            }
+        ],
+        "classifications": [
+            {
+                "bird_id": 0,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 1,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 2,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 3,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 4,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 5,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 6,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 7,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 8,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 9,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 10,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 11,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 12,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 13,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 14,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 15,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 16,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 17,
+                "probability": 0.7
+            },
+            {
+                "bird_id": 18,
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "pi_id": 2,
+        "timestamp": "2021-05-05 07:58:12.546565",
+        "position": "[50.6788, 7.1619]",
+        "solar_current": 1.666,
+        "solar_voltage": 0.017120000000000003,
+        "measurements": [
+            {
+                "angle": 30.0,
+                "deviation": 15,
+                "sig_pow": 77.67987890472632,
+                "snr": "[-11.5664, -10.5417, -9.1834, -14.5349]"
+            }
+        ],
+        "classifications": [
+            {
+                "bird_id": 0,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 1,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 2,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 3,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 4,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 5,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 6,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 7,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 8,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 9,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 10,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 11,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 12,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 13,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 14,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 15,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 16,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 17,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 18,
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "pi_id": 2,
+        "timestamp": "2021-05-05 07:58:22.123767",
+        "position": "[50.6788, 7.1619]",
+        "solar_current": 1.7079999999999997,
+        "solar_voltage": 0.01768,
+        "measurements": [
+            {
+                "angle": 30.0,
+                "deviation": 15,
+                "sig_pow": 76.89844141994861,
+                "snr": "[-14.0134, -10.364, -10.6437, -15.7181]"
+            }
+        ],
+        "classifications": [
+            {
+                "bird_id": 0,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 1,
+                "probability": 0.25
+            },
+            {
+                "bird_id": 2,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 3,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 4,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 5,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 6,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 7,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 8,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 9,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 10,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 11,
+                "probability": 0.5
+            },
+            {
+                "bird_id": 12,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 13,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 14,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 15,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 16,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 17,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 18,
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "pi_id": 2,
+        "timestamp": "2021-05-05 07:58:31.381426",
+        "position": "[50.6788, 7.1619]",
+        "solar_current": 1.6679999999999995,
+        "solar_voltage": 0.017920000000000002,
+        "measurements": [
+            {
+                "angle": 30.0,
+                "deviation": 15,
+                "sig_pow": 77.29187291786069,
+                "snr": "[-15.4309, -15.061, -9.9712, -11.2549]"
+            }
+        ],
+        "classifications": [
+            {
+                "bird_id": 0,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 1,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 2,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 3,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 4,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 5,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 6,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 7,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 8,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 9,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 10,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 11,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 12,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 13,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 14,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 15,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 16,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 17,
+                "probability": 0.25
+            },
+            {
+                "bird_id": 18,
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "pi_id": 2,
+        "timestamp": "2021-05-05 07:58:40.549402",
+        "position": "[50.6788, 7.1619]",
+        "solar_current": 1.6729999999999998,
+        "solar_voltage": 0.01764,
+        "measurements": [
+            {
+                "angle": 45.30368179689219,
+                "deviation": 15,
+                "sig_pow": 76.12529170081962,
+                "snr": "[-11.1398, -11.5605, -14.2751, -13.524]"
+            }
+        ],
+        "classifications": [
+            {
+                "bird_id": 0,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 1,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 2,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 3,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 4,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 5,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 6,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 7,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 8,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 9,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 10,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 11,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 12,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 13,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 14,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 15,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 16,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 17,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 18,
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "pi_id": 2,
+        "timestamp": "2021-05-05 07:58:49.971293",
+        "position": "[50.6788, 7.1619]",
+        "solar_current": 1.659,
+        "solar_voltage": 0.01764,
+        "measurements": [
+            {
+                "angle": 315.3036817968922,
+                "deviation": 15,
+                "sig_pow": 77.75806842089423,
+                "snr": "[-10.7719, -14.6165, -15.7741, -9.6999]"
+            }
+        ],
+        "classifications": [
+            {
+                "bird_id": 0,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 1,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 2,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 3,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 4,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 5,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 6,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 7,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 8,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 9,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 10,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 11,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 12,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 13,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 14,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 15,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 16,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 17,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 18,
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "pi_id": 2,
+        "timestamp": "2021-05-05 07:58:58.703068",
+        "position": "[50.6788, 7.1619]",
+        "solar_current": 1.702,
+        "solar_voltage": 0.0184,
+        "measurements": [
+            {
+                "angle": 30.0,
+                "deviation": 15,
+                "sig_pow": 76.08073052205592,
+                "snr": "[-11.7357, -12.7756, -13.1815, -11.3177]"
+            }
+        ],
+        "classifications": [
+            {
+                "bird_id": 0,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 1,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 2,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 3,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 4,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 5,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 6,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 7,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 8,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 9,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 10,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 11,
+                "probability": 0.5
+            },
+            {
+                "bird_id": 12,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 13,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 14,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 15,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 16,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 17,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 18,
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "pi_id": 2,
+        "timestamp": "2021-05-05 07:59:07.903103",
+        "position": "[50.6788, 7.1619]",
+        "solar_current": 1.666,
+        "solar_voltage": 0.01768,
+        "measurements": [
+            {
+                "angle": 30.0,
+                "deviation": 15,
+                "sig_pow": 77.2847263568818,
+                "snr": "[-11.0475, -14.3179, -13.2304, -9.6668]"
+            }
+        ],
+        "classifications": [
+            {
+                "bird_id": 0,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 1,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 2,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 3,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 4,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 5,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 6,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 7,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 8,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 9,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 10,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 11,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 12,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 13,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 14,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 15,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 16,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 17,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 18,
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "pi_id": 2,
+        "timestamp": "2021-05-05 07:59:17.184355",
+        "position": "[50.6788, 7.1619]",
+        "solar_current": 1.6729999999999996,
+        "solar_voltage": 0.01768,
+        "measurements": [
+            {
+                "angle": 45.30368179689219,
+                "deviation": 15,
+                "sig_pow": 76.81311186813501,
+                "snr": "[-12.9206, -13.7132, -11.1585, -10.5215]"
+            }
+        ],
+        "classifications": [
+            {
+                "bird_id": 0,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 1,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 2,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 3,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 4,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 5,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 6,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 7,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 8,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 9,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 10,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 11,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 12,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 13,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 14,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 15,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 16,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 17,
+                "probability": 0.5
+            },
+            {
+                "bird_id": 18,
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "pi_id": 2,
+        "timestamp": "2021-05-05 07:59:26.324719",
+        "position": "[50.6788, 7.1619]",
+        "solar_current": 1.6740000000000002,
+        "solar_voltage": 0.0176,
+        "measurements": [
+            {
+                "angle": 30.0,
+                "deviation": 15,
+                "sig_pow": 77.44401548516274,
+                "snr": "[-15.7454, -13.3953, -9.8986, -10.5323]"
+            }
+        ],
+        "classifications": [
+            {
+                "bird_id": 0,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 1,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 2,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 3,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 4,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 5,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 6,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 7,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 8,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 9,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 10,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 11,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 12,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 13,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 14,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 15,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 16,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 17,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 18,
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "pi_id": 2,
+        "timestamp": "2021-05-05 07:59:35.757884",
+        "position": "[50.6788, 7.1619]",
+        "solar_current": 1.6660000000000001,
+        "solar_voltage": 0.017120000000000003,
+        "measurements": [
+            {
+                "angle": 45.30368179689219,
+                "deviation": 15,
+                "sig_pow": 76.94266644967018,
+                "snr": "[-10.8309, -11.2805, -12.6097, -12.8476]"
+            }
+        ],
+        "classifications": [
+            {
+                "bird_id": 0,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 1,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 2,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 3,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 4,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 5,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 6,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 7,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 8,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 9,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 10,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 11,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 12,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 13,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 14,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 15,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 16,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 17,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 18,
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "pi_id": 2,
+        "timestamp": "2021-05-05 07:59:44.466393",
+        "position": "[50.6788, 7.1619]",
+        "solar_current": 1.6769999999999996,
+        "solar_voltage": 0.01724,
+        "measurements": [
+            {
+                "angle": 45.30368179689219,
+                "deviation": 15,
+                "sig_pow": 75.71513370923965,
+                "snr": "[-11.6122, -11.6047, -10.9934, -11.7219]"
+            }
+        ],
+        "classifications": [
+            {
+                "bird_id": 0,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 1,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 2,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 3,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 4,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 5,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 6,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 7,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 8,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 9,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 10,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 11,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 12,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 13,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 14,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 15,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 16,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 17,
+                "probability": 0.25
+            },
+            {
+                "bird_id": 18,
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "pi_id": 2,
+        "timestamp": "2021-05-05 07:59:53.778438",
+        "position": "[50.6788, 7.1619]",
+        "solar_current": 1.6969999999999998,
+        "solar_voltage": 0.017400000000000002,
+        "measurements": [
+            {
+                "angle": 30.0,
+                "deviation": 15,
+                "sig_pow": 77.85614661138014,
+                "snr": "[-11.122, -13.6804, -13.1427, -9.451]"
+            }
+        ],
+        "classifications": [
+            {
+                "bird_id": 0,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 1,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 2,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 3,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 4,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 5,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 6,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 7,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 8,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 9,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 10,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 11,
+                "probability": 0.5
+            },
+            {
+                "bird_id": 12,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 13,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 14,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 15,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 16,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 17,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 18,
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "pi_id": 2,
+        "timestamp": "2021-05-05 08:00:03.077115",
+        "position": "[50.6788, 7.1619]",
+        "solar_current": 1.7040000000000004,
+        "solar_voltage": 0.01852,
+        "measurements": [
+            {
+                "angle": 45.30368179689219,
+                "deviation": 15,
+                "sig_pow": 77.34754963830456,
+                "snr": "[-11.7102, -9.9274, -13.1565, -13.2278]"
+            }
+        ],
+        "classifications": [
+            {
+                "bird_id": 0,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 1,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 2,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 3,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 4,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 5,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 6,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 7,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 8,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 9,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 10,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 11,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 12,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 13,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 14,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 15,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 16,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 17,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 18,
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "pi_id": 2,
+        "timestamp": "2021-05-05 08:00:11.630652",
+        "position": "[50.6788, 7.1619]",
+        "solar_current": 1.6909999999999998,
+        "solar_voltage": 0.01716,
+        "measurements": [
+            {
+                "angle": 45.30368179689219,
+                "deviation": 15,
+                "sig_pow": 78.38566784914984,
+                "snr": "[-14.757, -14.0736, -9.0465, -10.4403]"
+            }
+        ],
+        "classifications": [
+            {
+                "bird_id": 0,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 1,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 2,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 3,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 4,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 5,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 6,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 7,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 8,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 9,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 10,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 11,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 12,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 13,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 14,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 15,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 16,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 17,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 18,
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "pi_id": 2,
+        "timestamp": "2021-05-05 08:00:20.880485",
+        "position": "[50.6788, 7.1619]",
+        "solar_current": 1.669,
+        "solar_voltage": 0.018279999999999998,
+        "measurements": [
+            {
+                "angle": 45.30368179689219,
+                "deviation": 15,
+                "sig_pow": 76.07813668067021,
+                "snr": "[-11.4285, -12.1657, -11.3115, -11.9798]"
+            }
+        ],
+        "classifications": [
+            {
+                "bird_id": 0,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 1,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 2,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 3,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 4,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 5,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 6,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 7,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 8,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 9,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 10,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 11,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 12,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 13,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 14,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 15,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 16,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 17,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 18,
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "pi_id": 2,
+        "timestamp": "2021-05-05 08:00:30.265582",
+        "position": "[50.6788, 7.1619]",
+        "solar_current": 1.6780000000000004,
+        "solar_voltage": 0.01784,
+        "measurements": [
+            {
+                "angle": 45.30368179689219,
+                "deviation": 15,
+                "sig_pow": 77.23725443645068,
+                "snr": "[-11.2648, -11.9923, -10.3533, -10.9708]"
+            }
+        ],
+        "classifications": [
+            {
+                "bird_id": 0,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 1,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 2,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 3,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 4,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 5,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 6,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 7,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 8,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 9,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 10,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 11,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 12,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 13,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 14,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 15,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 16,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 17,
+                "probability": 0.25
+            },
+            {
+                "bird_id": 18,
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "pi_id": 2,
+        "timestamp": "2021-05-05 08:00:39.756946",
+        "position": "[50.6788, 7.1619]",
+        "solar_current": 1.6770000000000003,
+        "solar_voltage": 0.01776,
+        "measurements": [
+            {
+                "angle": 30.0,
+                "deviation": 15,
+                "sig_pow": 77.22032619261864,
+                "snr": "[-11.697, -11.4337, -10.5131, -12.0284]"
+            }
+        ],
+        "classifications": [
+            {
+                "bird_id": 0,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 1,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 2,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 3,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 4,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 5,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 6,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 7,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 8,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 9,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 10,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 11,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 12,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 13,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 14,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 15,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 16,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 17,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 18,
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "pi_id": 2,
+        "timestamp": "2021-05-05 08:00:49.030880",
+        "position": "[50.6788, 7.1619]",
+        "solar_current": 1.6869999999999998,
+        "solar_voltage": 0.017200000000000003,
+        "measurements": [
+            {
+                "angle": 30.0,
+                "deviation": 15,
+                "sig_pow": 77.1125992706168,
+                "snr": "[-10.8644, -10.6962, -11.2317, -11.8335]"
+            }
+        ],
+        "classifications": [
+            {
+                "bird_id": 0,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 1,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 2,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 3,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 4,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 5,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 6,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 7,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 8,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 9,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 10,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 11,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 12,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 13,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 14,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 15,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 16,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 17,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 18,
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "pi_id": 2,
+        "timestamp": "2021-05-05 08:00:58.059214",
+        "position": "[50.6788, 7.1619]",
+        "solar_current": 1.7009999999999998,
+        "solar_voltage": 0.017640000000000003,
+        "measurements": [
+            {
+                "angle": 194.69631820310775,
+                "deviation": 15,
+                "sig_pow": 78.33895029341153,
+                "snr": "[-11.3556, -9.9878, -11.4755, -11.0441]"
+            }
+        ],
+        "classifications": [
+            {
+                "bird_id": 0,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 1,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 2,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 3,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 4,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 5,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 6,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 7,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 8,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 9,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 10,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 11,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 12,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 13,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 14,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 15,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 16,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 17,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 18,
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "pi_id": 2,
+        "timestamp": "2021-05-05 08:01:07.111257",
+        "position": "[50.6788, 7.1619]",
+        "solar_current": 1.6870000000000003,
+        "solar_voltage": 0.018439999999999998,
+        "measurements": [
+            {
+                "angle": 30.0,
+                "deviation": 15,
+                "sig_pow": 77.54173767824348,
+                "snr": "[-10.5658, -10.4961, -13.0717, -11.8301]"
+            }
+        ],
+        "classifications": [
+            {
+                "bird_id": 0,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 1,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 2,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 3,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 4,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 5,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 6,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 7,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 8,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 9,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 10,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 11,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 12,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 13,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 14,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 15,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 16,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 17,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 18,
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "pi_id": 2,
+        "timestamp": "2021-05-05 08:01:16.222751",
+        "position": "[50.6788, 7.1619]",
+        "solar_current": 1.6889999999999998,
+        "solar_voltage": 0.017240000000000002,
+        "measurements": [
+            {
+                "angle": 120.0,
+                "deviation": 15,
+                "sig_pow": 77.75446924366776,
+                "snr": "[-14.777, -11.6384, -10.0764, -11.7831]"
+            }
+        ],
+        "classifications": [
+            {
+                "bird_id": 0,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 1,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 2,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 3,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 4,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 5,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 6,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 7,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 8,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 9,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 10,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 11,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 12,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 13,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 14,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 15,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 16,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 17,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 18,
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "pi_id": 2,
+        "timestamp": "2021-05-05 08:01:25.154301",
+        "position": "[50.6788, 7.1619]",
+        "solar_current": 1.6710000000000003,
+        "solar_voltage": 0.016960000000000003,
+        "measurements": [
+            {
+                "angle": 120.0,
+                "deviation": 15,
+                "sig_pow": 78.13245620463532,
+                "snr": "[-13.0754, -10.2324, -11.4036, -12.6404]"
+            }
+        ],
+        "classifications": [
+            {
+                "bird_id": 0,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 1,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 2,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 3,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 4,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 5,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 6,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 7,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 8,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 9,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 10,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 11,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 12,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 13,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 14,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 15,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 16,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 17,
+                "probability": 0.25
+            },
+            {
+                "bird_id": 18,
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "pi_id": 2,
+        "timestamp": "2021-05-05 08:01:34.332587",
+        "position": "[50.6788, 7.1619]",
+        "solar_current": 1.6850000000000003,
+        "solar_voltage": 0.01796,
+        "measurements": [
+            {
+                "angle": 45.30368179689219,
+                "deviation": 15,
+                "sig_pow": 79.33351992683403,
+                "snr": "[-8.689, -9.9312, -18.6318, -13.8903]"
+            }
+        ],
+        "classifications": [
+            {
+                "bird_id": 0,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 1,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 2,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 3,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 4,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 5,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 6,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 7,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 8,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 9,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 10,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 11,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 12,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 13,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 14,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 15,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 16,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 17,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 18,
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "pi_id": 2,
+        "timestamp": "2021-05-05 08:01:43.270075",
+        "position": "[50.6788, 7.1619]",
+        "solar_current": 1.6740000000000002,
+        "solar_voltage": 0.0176,
+        "measurements": [
+            {
+                "angle": 45.30368179689219,
+                "deviation": 15,
+                "sig_pow": 77.0922980326398,
+                "snr": "[-13.0137, -11.2704, -11.0711, -10.892]"
+            }
+        ],
+        "classifications": [
+            {
+                "bird_id": 0,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 1,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 2,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 3,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 4,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 5,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 6,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 7,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 8,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 9,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 10,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 11,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 12,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 13,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 14,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 15,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 16,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 17,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 18,
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "pi_id": 2,
+        "timestamp": "2021-05-05 08:01:52.653621",
+        "position": "[50.6788, 7.1619]",
+        "solar_current": 1.6939999999999997,
+        "solar_voltage": 0.017400000000000002,
+        "measurements": [
+            {
+                "angle": 45.30368179689219,
+                "deviation": 15,
+                "sig_pow": 78.14356880847355,
+                "snr": "[-9.9501, -10.7444, -14.8867, -11.8829]"
+            }
+        ],
+        "classifications": [
+            {
+                "bird_id": 0,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 1,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 2,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 3,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 4,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 5,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 6,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 7,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 8,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 9,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 10,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 11,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 12,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 13,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 14,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 15,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 16,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 17,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 18,
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "pi_id": 2,
+        "timestamp": "2021-05-05 08:02:02.010628",
+        "position": "[50.6788, 7.1619]",
+        "solar_current": 1.6559999999999997,
+        "solar_voltage": 0.017720000000000003,
+        "measurements": [
+            {
+                "angle": 45.30368179689219,
+                "deviation": 15,
+                "sig_pow": 76.70877469145437,
+                "snr": "[-11.1531, -11.4926, -11.003, -11.543]"
+            }
+        ],
+        "classifications": [
+            {
+                "bird_id": 0,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 1,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 2,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 3,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 4,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 5,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 6,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 7,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 8,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 9,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 10,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 11,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 12,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 13,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 14,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 15,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 16,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 17,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 18,
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "pi_id": 2,
+        "timestamp": "2021-05-05 08:02:11.112311",
+        "position": "[50.6788, 7.1619]",
+        "solar_current": 1.658,
+        "solar_voltage": 0.016399999999999998,
+        "measurements": [
+            {
+                "angle": 30.0,
+                "deviation": 15,
+                "sig_pow": 76.44175941515107,
+                "snr": "[-11.67, -10.5757, -11.9237, -11.0716]"
+            }
+        ],
+        "classifications": [
+            {
+                "bird_id": 0,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 1,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 2,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 3,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 4,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 5,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 6,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 7,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 8,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 9,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 10,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 11,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 12,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 13,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 14,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 15,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 16,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 17,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 18,
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "pi_id": 2,
+        "timestamp": "2021-05-05 08:02:19.705840",
+        "position": "[50.6788, 7.1619]",
+        "solar_current": 1.6829999999999998,
+        "solar_voltage": 0.017320000000000002,
+        "measurements": [
+            {
+                "angle": 120.0,
+                "deviation": 15,
+                "sig_pow": 79.3586461326634,
+                "snr": "[-13.8664, -11.8567, -8.8874, -11.1645]"
+            }
+        ],
+        "classifications": [
+            {
+                "bird_id": 0,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 1,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 2,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 3,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 4,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 5,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 6,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 7,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 8,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 9,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 10,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 11,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 12,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 13,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 14,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 15,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 16,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 17,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 18,
+                "probability": 0.0
+            }
+        ]
+    },
+    {
+        "pi_id": 2,
+        "timestamp": "2021-05-05 08:02:29.152039",
+        "position": "[50.6788, 7.1619]",
+        "solar_current": 1.686,
+        "solar_voltage": 0.01708,
+        "measurements": [
+            {
+                "angle": 30.0,
+                "deviation": 15,
+                "sig_pow": 77.27436560749665,
+                "snr": "[-11.5115, -13.0328, -11.5637, -9.9474]"
+            }
+        ],
+        "classifications": [
+            {
+                "bird_id": 0,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 1,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 2,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 3,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 4,
+                "probability": 0.0
+            },
+            {
+                "bird_id": 5,
+                "probability": 0.0
+            },
+            {
+                

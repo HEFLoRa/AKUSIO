@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block head %}
+{{ super() }}
+<meta http-equiv="cache-control" content="no-cache" />
+{%- endblock %}
+
+{% macro bird_image(id) -%}
+<figure>
+    {% set name = "birds/" ~ bird["file"] ~ "_full.png" %}
+    <h1>{{bird["name"]}}</h1>
+    <img src="{{url_for('main.static', filename=name)}}" /> 
+    <figcaption>Amount:  {{"%0.0f" | format(bird["amount"]|float)}}</figcaption>
+</figure>
+{%- endmacro%}}
+
+{% macro plot_image(id) -%}
+<figure>
+    {% set name = "birds/" ~ bird["file"] ~ "_plot.png" %}
+    <img src="{{url_for('main.static', filename=name)}}" />
+</figure>
+{%- endmacro%}}
+
+
+{%- block app_content %}
+<div class="container-fluid">
+    <div class="col">
+        <div align="center">{{bird_image(id)}}</divalign>
+        <div>{{plot_image(id)}}</div>
+    </div>
+</div>
+{%- endblock %}

@@ -1,0 +1,263 @@
+import copy
+from scipy.stats import norm
+from fusion.model_2 import Model, Hypothesis, Measurement
+from numpy import transpose, cos, sin
+from numpy.linalg import inv
+import numpy as np
+
+
+class FusionCenter:
+    def __init__(self):
+        self.model = Model()
+        self.n_targets = 0
+        self.n_targets_per_class = np.zeros(self.model.n_bird_classes)
+        self.last_update_time = 0
+
+    def prediction(self, timestamp, hypothesis):
+        for hypo in hypothesis:
+            dynamics = self.model.map_class_on_dynamics(hypo.classification)
+            F = dynamics.F
+            Q = dynamics.Q
+            hypo.timestamp = timestamp
+            hypo.w = self.model.p_S * hypo.w
+            hypo.x = F @ hypo.x
+            hypo.P = F @ hypo.P @ transpose(F) + Q
+
+        self.n_targets, self.n_targets_per_class = self.number_of_targets_per_class(hypothesis)
+
+        return hypothesis
+
+    def update(self, timestamp, hypothesis, bearing, classification):
+
+        updated = copy.deepcopy(hypothesis)
+        non_normalized_classification = copy.deepcopy(classification)
+        classification = classification / np.sum(classification)
+        # non-detection
+        for hypo in updated:
+            p = self.adapt_detection_prob(non_normalized_classification)
+            hypo.w = (1.0 - p) * hypo.w
+
+        bearing_contribution = 0.0
+        updated_associated = []
+        # threshold for association of the bearing and a hypothesis
+        for c in range(self.model.n_bird_classes):
+            n_new_hypothesis = 0
+            sum_w = 0.0
+            for hypo in hypothesis:
+                # association value/weight
+                w_association, H, S, hypo_angle = self.get_association_value(bearing, hypo)
+                if w_association > self.model.association_T:
+                    # model prob. depending on the classification
+                    w_classification = self.get_classification_prob(c, hypo)
+
+                    # weight computation: see notes
+                    w = self.adapt_detection_prob(non_normalized_classification) * w_classification * classification[
+                        c] * hypo.w * w_association
+
+                    # Kalman Gain matrix
+                    K = hypo.P @ transpose(H) * 1.0 / S
+                    I = np.eye(hypo.P.shape[0])
+
+                    P = (I - K @ H) @ hypo.P @ (I - K @ H) + K * S @ transpose(K)
+                    x = hypo.x + K * (bearing.angle - hypo_angle)
+                    updated_associated.append(Hypothesis(timestamp, w, x, P, hypo.classification))
+                    n_new_hypothesis += 1
+                    sum_w += w
+
+            for j in range(n_new_hypothesis):
+                updated_associated[-(j + 1)].w = updated_associated[-(j + 1)].w / (self.model.kappa + sum_w)
+                bearing_contribution += updated_associated[-(j + 1)].w
+
+        updated.extend(updated_associated)
+        if bearing_contribution < self.model.bearing_contribution_T:
+            new_hypo = self.generate_measurement_hypothesis(timestamp, self.bearing_to_measurements(bearing), non_normalized_classification)
+            updated.extend(new_hypo)
+        else:
+            print("bearing associated")
+
+        hypothesis = self.pruning(updated)
+        hypothesis = self.merge_hypothesis(hypothesis)
+        self.n_targets, self.n_targets_per_class = self.number_of_targets_per_class(hypothesis)
+        self.last_update_time = timestamp
+
+        return hypothesis, self.n_targets, self.n_targets_per_class
+
+    def adapt_detection_prob(self, classification):
+        p_false_alarm = 0.2
+        n_new_targets = np.max([np.sum(classification) - self.n_targets, 0.0])
+        n = np.ceil(self.n_targets) + p_false_alarm + n_new_targets
+
+        prob = 1.0 / n
+        return prob
+
+    def bearing_to_measurements(self, bearing):
+        """
+        transforms an one dimensional bearing to a set of measurements
+        :param bearing: bearing as angle in radians
+        :return: list of measurements
+        """
+        Z = []
+        stepsize = self.model.max_range / self.model.N
+        ranges = np.arange(stepsize, self.model.max_range + stepsize, stepsize)
+
+        rotation_mat = np.array([[cos(bearing.angle), -sin(bearing.angle)],
+                                 [sin(bearing.angle), cos(bearing.angle)]])
+
+        for r in ranges:
+            measurement = np.array([r * cos(bearing.angle), r * sin(bearing.angle)]) + bearing.position
+            theta = np.array([[np.power(self.model.max_range / (4 * self.model.N), 2), 0],
+                              [0, np.power(r * bearing.sigma, 2)]])
+
+            R = rotation_mat @ theta @ transpose(rotation_mat)
+            Z.append(Measurement(measurement, R))
+
+        return Z
+
+    def generate_measurement_hypothesis(self, timestamp, Z, classification):
+        """
+        If we can't associate a bearing with enough prior hypotheses we will create a new set of GM.
+        For each class we will create one GM and each GM is generated by bearing 'bearing_to_measurement'
+        and the weight corresponds to the classification probability
+        :param timestamp:
+        :param Z:
+        :param classification:
+        :return:
+        """
+        new_hypothesis = []
+
+        meas_w = [np.linalg.det(z.R) for z in Z]
+        meas_w = meas_w / np.sum(meas_w)
+
+        p_birth = self.model.measurement_hypo_w
+
+        classification = classification / np.sum(classification)
+
+        for i in range(len(classification)):
+            p_c = classification[i]
+            for j in range(len(Z)):
+                z_w = meas_w[j]
+                x = Z[j].x
+                P = Z[j].R
+
+                w = z_w * p_c * p_birth
+
+                new_hypothesis.append(Hypothesis(timestamp, w, x, P, i))
+
+        return new_hypothesis
+
+    def optimistic_initialization(self, timestamp, bearing, classification):
+        """
+        Note: To accelerate the process of recognizing multiple targets we need some optimistic init.
+        function:
+        if estimated number of classificatio >> n_targets --> optimistic initialization
+        How to: initialize for the bearing as you do currently then for each additional target
+        use something like - create new birth target
+            - split FoV in pizza slice and each will be described by one GM
+        :param timestamp:
+        :param bearing:
+        :param classification:
+        :return:
+        """
+        classification_expected_n_targets = np.sum(classification)
+        if classification_expected_n_targets <= self.n_targets + 1:
+            return self.generate_measurement_hypothesis(timestamp, self.bearing_to_measurements(bearing), classification)
+
+        new_hypothesis = self.generate_measurement_hypothesis(timestamp, self.bearing_to_measurements(bearing), classification)
+
+
+
+    def get_classification_prob(self, c, hypo):
+        """
+        returns to a given classification c and hypothesis hypo the prob: P(hypo.classification | c)
+        :param c: certain class (index)
+        :param hypo: prior hypothesis
+        :return: P(hypo.classification | c)
+        """
+        if c == hypo.classification:
+            return self.model.classification_prob
+        else:
+            return (1.0 - self.model.classification_prob)/(self.model.n_bird_classes - 1)
+
+    def get_association_value(self, bearing, hypo):
+        """
+        association value between the bearing and a hypothesis
+        :param bearing: Bearing (DoA) that consists of an angle, standard derivation and the pi position
+        :param hypo: prior hypothesis
+        :return: association weight
+        """
+        x = hypo.x[0]
+        y = hypo.x[1]
+
+        sensor_pos = self.model.sensors[0].position
+        hypo_z = np.arctan2((y - sensor_pos[1]), x - sensor_pos[0])
+
+        # gradient of arctan2
+        H = np.array([-y/(x**2 + y**2), x/(x**2 + y**2)])
+
+        # corresponding innovation covariance
+        S = H @ hypo.P @ transpose(H) + bearing.sigma**2
+
+        N = norm(loc=hypo_z, scale=S)
+        # association value/weight
+        w_association = N.pdf(bearing.angle)
+
+        return w_association, H, S, hypo_z
+
+    def number_of_targets_per_class(self, hypothesis):
+        """
+        Computes the number of targets per class based on the current hypotheses.
+        The number of targets is given by the sum over the weights.
+        :param hypothesis: list of current hypothesis
+        :return: total number of targets, list of number of targets per class
+        """
+        n_targets_classes = np.zeros(self.model.n_bird_classes)
+
+        for hypo in hypothesis:
+            n_targets_classes[hypo.classification] += hypo.w
+
+        return sum(n_targets_classes), n_targets_classes
+
+    def pruning(self, hypothesis):
+        """
+        Deletes all hypothesis with a weight smaller than some threshold defined by the model
+        :param hypothesis: current list of hypothesis
+        :return: pruned list of hypothesis
+        """
+        new_hypothesis = [hypo for hypo in hypothesis if hypo.w >= self.model.prune_T]
+        return new_hypothesis
+
+    def merge_hypothesis(self, hypothesis):
+        """
+        Merges similar hypothesis if there 'Mahalanobis Norm' (similarity) is smaller than some
+        threshold U and the classification is the same
+        :param hypothesis: list of current hypothesis
+        :return: list of merged hypothesis
+        """
+        I = copy.deepcopy(hypothesis)
+        new_hypothesis = []
+        U = self.model.merge_T
+        while I:
+            j = np.argmax([hypo.w for hypo in I])
+            L = [hypo for hypo in I if self.dist_between_hypos(hypo, I[j]) <= U
+                                    and hypo.classification == I[j].classification]
+            I = [hypo for hypo in I if hypo not in L]
+
+            timestamp = L[0].timestamp
+            w = np.sum(hypo.w for hypo in L)
+            x = 1.0 / w * np.sum([hypo.w * hypo.x for hypo in L], axis=0)
+
+            P = np.zeros((2, 2))
+            for hypo in L:
+                P += hypo.w * (hypo.P + (x - hypo.x) @ transpose(x - hypo.x))
+            P = 1.0 / w * P
+
+            new_hypothesis.append(Hypothesis(timestamp, w, x, P, L[0].classification))
+
+        return new_hypothesis
+
+    @staticmethod
+    def dist_between_hypos(hypo1, hypo2):
+        """
+        Distance between two hypothesis ~ Similarity
+        """
+        return transpose(hypo1.x - hypo2.x) @ inv(hypo1.P) @ (hypo1.x - hypo2.x)
