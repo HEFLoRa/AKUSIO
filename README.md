@@ -130,12 +130,36 @@ Preparing the scheduled shutdown and power up:
 	
 	
 ## 8)	Running shazam
+To run shazam after the complete installation of the system, simply run the "shazam.py" file and it will take care of the whole process as shown in the process flowchart.
+
+Shazam.py works as follows:
+
+		1. Runs the main.py file responsible for bird voice detection
+		2. main.py file detects any surrounding voices and writes a report of each detection in a json file (/bird_data/data_n.json)
+		3. After 30 minutes it runs lora.py file which access the json files, checks each detection if there is a high probability (higher than 0.2) of a certain bird then transmit the data over LoRa using the LoRa HAT
+
+Files locations:
+
+	"main.py": "/Shazam4Nature-master-3/pi_main/"
+	"lora.py": "/Shazam4Nature-master-3/pi_main/lmic-rpi-lora-gps-hat/examples/periodic"
 
 ![image](https://user-images.githubusercontent.com/64909238/121417337-13c00600-c96a-11eb-84f3-357d15ffc4b7.png)
 
 ## References
 
-https://wiki.seeedstudio.com/ReSpeaker_4_Mic_Array_for_Raspberry_Pi/
-https://learn.adafruit.com/adafruit-ina219-current-sensor-breakout/python-circuitpython
-
+	https://wiki.seeedstudio.com/ReSpeaker_4_Mic_Array_for_Raspberry_Pi/
+	https://learn.adafruit.com/adafruit-ina219-current-sensor-breakout/python-circuitpython
+	https://pinout.xyz/
+	https://pinout.xyz/pinout/respeaker_4_mic_array
+	https://www.pidramble.com/wiki/benchmarks/power-consumption
+	https://strompi.joy-it.net/files/files/downloads/anleitungen/RB-StromPi3-Manual-13-10-20.pdf
+	https://learn.adafruit.com/adafruit-ina219-current-sensor-breakout/wiring
+	https://www.raspberrypi.org/documentation/hardware/raspberrypi/power/README.md
+	https://www.hackster.io/chrisb2/raspberry-pi-ina219-voltage-current-sensor-library-f3bb54
+	https://cdn.shopify.com/s/files/1/0176/3274/files/Raspberry-Pi-Comparison_r4.pdf?3484
+	https://github.com/wklenk/lmic-rpi-lora-gps-hat
+	https://www.thethingsnetwork.org/article/selecting-the-best-lithium-primary-batteries-for-your-lorawan-node
+	https://wiki.dragino.com/index.php?title=Lora/GPS_HAT
+	https://www.dragino.com/downloads/downloads/LoRa-GPS-HAT/LoRa_GPS_HAT_UserManual_v1.0.pdf
+	https://howchoo.com/g/mmfkn2rhoth/raspberry-pi-solar-power
 
