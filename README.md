@@ -68,7 +68,45 @@ The main components of Shazam are shown in figure 1, RPI3B with Raspberry Pi OS 
 The StromPi HAT can be directly connected on the RPI, but the ReSpeaker and the LoRa HAT must be manually connected as shown in figure 2, just follow the color code for each RPi pin and use a breadboard for the common pins between the ReSpeaker and the LoRa HAT (Pin 12).
 
 ![image](https://user-images.githubusercontent.com/64909238/121410285-b83e4a00-c962-11eb-8c56-7222bfadd183.png)
+  
+   ### c.	Specs
+   
+LoRa HAT:
 
+	- 168 dB maximum link budget
+	- +20 dBm - 100 mW constant RF output vs. +14 dBm high efficiency PA
+	- Programmable bit rate up to 300 kbps
+	- High sensitivity: down to -148 dBm.
+	- Bullet-proof front end: IIP3 = -12.5 dBm
+	- Low RX current of 10.3 mA, 200 nA register retention
+	- Fully integrated synthesizer with a resolution of 61 Hz
+	- FSK, GFSK, MSK, GMSK, LoRaTM and OOK modulation.
+	- Built-in bit synchronizer for clock recovery
+	- Preamble detection.
+	- 127 dB Dynamic Range RSSI.
+	- Automatic RF Sense and CAD with ultra-fast AFC.
+	- Packet engine up to 256 bytes with CRC.
+	- Built-in temperature sensor and low battery indicator
+	
+ReSpeaker 4-Mic Array:
+
+	- 4 analog microphones
+	- LED: 12 APA102 programable RGB LEDs, connected to SPI interface
+	- Raspberry Pi 40-Pin Headers: compatible with Raspberry Pi Zero and Zero W, Raspberry PiB+, Raspberry Pi 2B, Raspberry Pi 3B, Raspberry Pi 3B+, Raspberry Pi3 A+ and Raspberry Pi 4
+	- AC108: highly integrated quad-channel ADC with I2S/TDM output transition
+	- I2C: Grove I2C port, connected to I2C-1
+	- GPIO12: Grove digital port, connected to GPIO12 & GPIO13
+	
+INA219:
+
+	- Supply voltage: 6 V (Max)
+	- Analog inputs: -26 - 26 V (Differential), -0.3 - 26 V (Common-mode)
+	- SDA: GND-0.3 - 6 V
+	- SCL: GND-0.3 - Vs+0.3 V
+	- Input current into any pin: 5 mA (Max)
+	- Operating Temperature: -40 - 125 °C
+	- Junction temperature: 150 °C (Max)
+	- Storage temperature: -65 - 150 °C
 
 
 ## 4)	Power Consumption
@@ -162,4 +200,4 @@ Files locations:
 	https://wiki.dragino.com/index.php?title=Lora/GPS_HAT
 	https://www.dragino.com/downloads/downloads/LoRa-GPS-HAT/LoRa_GPS_HAT_UserManual_v1.0.pdf
 	https://howchoo.com/g/mmfkn2rhoth/raspberry-pi-solar-power
-
+	https://www.ti.com/lit/ds/symlink/ina219.pdf
