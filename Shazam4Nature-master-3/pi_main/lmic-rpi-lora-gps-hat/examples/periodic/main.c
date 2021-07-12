@@ -11,6 +11,10 @@ int hour = 18;
 int min = 42;
 int sec = 42;
 
+
+
+// The variables in the start of this files are edited automatically by lora.py file
+// The variables are the data that will be transmitted over LoRa
 #include "stdint.h"
 #include "lmic.h"
 #include "debug.h"
@@ -124,35 +128,6 @@ LMIC.frame[21] = min_t;
 LMIC.frame[22] = sec_t >> 8;
 LMIC.frame[23] = sec_t;
 
-//uint8_t message[4];
-//uint16_t id1 = id_1;
-//uint16_t id2 = id_2;
-//uint16_t id3 = id_3;
-//uint16_t prob1 = prob_1*10;
-//uint16_t prob2 = prob_2*10;
-//uint16_t prob3 = prob_3*10;
-//uint8_t date_t = date;
-//uint8_t time_t = time;
-//message[0] = date_t >> 8;
-//message[1] = date_t;
-//message[2] = time_t >> 8;
-//message[3] = time_t;
-//message[4] = id1 >> 8;
-//message[5] = id1;
-//message[6] = id2 >> 8;
-//message[7] = id2;
-//message[8] = id3 >> 8;
-//message[9] = id3;
-//message[10] = prob1 >> 8;
-//message[11] = prob1;
-//message[12] = prob2 >> 8;
-//message[13] = prob2;
-//message[14] = prob3 >> 8;
-//message[15] = prob3;
-//message[12] = date_t >> 8;
-//message[13] = date_t;
-//message[14] = time_t >> 8;
-//message[15] = time_t;
 
 //LMIC_setTxData2(1, message, sizeof(message) - 1, 0);
 LMIC_setTxData2(1, LMIC.frame, 24, 0); // (port 1, 2 bytes, unconfirmed)
