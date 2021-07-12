@@ -27,8 +27,10 @@ prob = {0: 0, 1: 0, 2: 0, 3: 0, 4: 0, 5: 0,
 	6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0, 
 	13: 0, 14: 0, 15: 0, 16: 0, 17: 0, 18:0 
 	}
+
 #FILE_NAME = "/home/pi/Shazam4Nature-master-3/pi_main/bird_data/data_0.json"
 
+# Converts timestamp data from json files to an array.
 def timestamp_converter(timestamp):
 	timestamp_conv = ""
 	hour = ""
@@ -75,6 +77,7 @@ def timestamp_converter(timestamp):
 	timestamp_arr = np.array([year, month, day, hour, min, sec])
 	return timestamp_arr
 
+# Read data from json files that contains sound recognition reports.
 def read_json(i, file_name):
 	global prob
 	global time_stamp
@@ -90,6 +93,7 @@ def read_json(i, file_name):
 		for id in range(len(prob)):
 			prob[id] = obj[i]['classifications'][id]['probability']
 
+# Determine the top 3 bird type probabilities.
 def determine_max():
 	global prob_array
 	global id_array
@@ -115,6 +119,8 @@ def determine_max():
 	id_array = np.array([id_1, id_2, id_3])
 	print(prob_array)
 	print(id_array)
+	
+# Delete old variables from main.c files.
 def delete():
 	filename = 'main.c'
 	initial_line = 1
@@ -131,6 +137,7 @@ def delete():
 			f.write('{}\n'.format(line_content))
 	f.close()
 
+# Write new data as variable in the main.c files
 def write_data():
 	global id
 	global per
@@ -159,6 +166,7 @@ def write_data():
 	with open("main.c",'a') as contents:
 		contents.write(save)
 
+# Compiles the main.c files, runs periodic.out executable and kills both processes after one minute.
 def run_process():
 	subprocess.run("make")
 	subprocess.Popen(["sudo", "./build/periodic.out"])
