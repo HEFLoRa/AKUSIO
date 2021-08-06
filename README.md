@@ -135,7 +135,7 @@ This test was done on RPI 3B+. First, default current consumption was measured, 
 
 
 ## 5)	Solar Energy to Power Shazam
-The solar energy system shown in figure 5 was designed to power the RPi.
+The solar energy system shown in figure 5 was designed to power the RPi. For the power boost we used the Adafruit PowerBoost 500 Charger - Rechargeable 5V Lipo USB Boost @ 500mA+ and a common 3-leg voltage regulator.
 
 ![image](https://user-images.githubusercontent.com/64909238/121412514-166c2c80-c965-11eb-957f-dd91ee76c0c7.png)
 
