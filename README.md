@@ -212,3 +212,4 @@ Files locations:
 	https://www.dragino.com/downloads/downloads/LoRa-GPS-HAT/LoRa_GPS_HAT_UserManual_v1.0.pdf
 	https://howchoo.com/g/mmfkn2rhoth/raspberry-pi-solar-power
 	https://www.ti.com/lit/ds/symlink/ina219.pdf
+	https://www.adafruit.com/product/1944
