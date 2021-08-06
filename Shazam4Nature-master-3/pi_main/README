@@ -1,0 +1,7 @@
+- Shazam4Nature-master-3/pi_main/main.py : Main python file that includes the bird sound detection algorithm using ReSpeaker 4-mic array.
+- Shazam4Nature-master-3/pi_main/mic_array.py : ReSpeaker 4-mic array based code for recording sound
+- Shazam4Nature-master-3/pi_main/recognition/recognition.py : Loads the CNN model and predicts the bird type
+- Shazam4Nature-master-3/pi_main/bird_data/ : Directory that keeps the bird sound recognition reports as json files
+- Shazam4Nature-master-3/pi_main/lmic-rpi-lora-gps-hat/examples/periodic/main.c : Main C file that controls the LoRa tranmission process, payload, keys and LoRa configuration must be editted in this file. We control the file using lora.py file, so no need to edit anything inside. The main.c file is compiled and creates an executable called periodic.out that must run to transmit the payload.
+- Shazam4Nature-master-3/pi_main/lmic-rpi-lora-gps-hat/examples/periodic/build/periodic.out : Executable that runs the LoRa process
+. Shazam4Nature-master-3/pi_main/lmic-rpi-lora-gps-hat/examples/periodic/lora.py : Python file that controls the LoRa tranmission process (main.c and periodic.out). It This file reads data from json files that include sound recognition reports and edit main.c accordingly before running periodic.out.
